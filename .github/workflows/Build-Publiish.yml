@@ -1,7 +1,9 @@
 name: Release-Build-Publish
 
 on:
-  push
+  push:
+    tags:
+      - '**'
 
 jobs:
  build:
